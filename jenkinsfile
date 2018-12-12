@@ -5,7 +5,7 @@ agent any
    steps {
       echo 'Runnig build Automation'
       sh './gradlew build --no-daemon'
-      archiveArtifacts artifacts: 'dist/***.zip'
+      archiveArtifacts artifacts: 'dist/sampleapp.zip'
       }
      }
     }
